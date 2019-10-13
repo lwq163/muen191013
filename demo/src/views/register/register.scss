@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin:0;
+}
+html,body,#root{
+    width:100%;
+    height:100%;
+}
+.root{
+   position: relative;
+   width:100%;
+   height:100%;
+   background: #ffff;
+   font-family: "微软雅黑";
+   h2{
+    position: absolute;
+	left: 30px;
+    top: 65px;
+    font-weight: 800;
+	color: rgba(80, 80, 80, 1);
+	font-size: 35px;
+	line-height: 150%;
+	text-align: left;
+   }
+  .UseUserName{
+       position: absolute;
+        width: 225px;
+        height: 47.5px;
+        left: 55px;
+        top:200px;
+        text-indent: 2.5px;
+        color: rgba(51, 51, 51, 1);
+        border:1px solid rgba(204, 204, 204, 1) ;
+        border-radius:2.5px;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: left;
+    
+  }
+  .OncePassWord{
+    position: absolute;
+     width: 225px;
+     height: 47.5px;
+     left: 55px;
+     top:265px;
+     text-indent: 2.5px;
+     color: rgba(51, 51, 51, 1);
+     border:1px solid rgba(204, 204, 204, 1) ;
+     border-radius: 2.5px;
+     font-size: 15px;
+     line-height: 150%;
+     text-align: left;
+ 
+}
+.TwoPassWord{
+    position: absolute;
+     width:225px;
+     height:47.5px;
+     left: 55px;
+     top:330px;
+     text-indent: 2.5px;
+     color: rgba(51, 51, 51, 1);
+     border:1px solid rgba(204, 204, 204, 1) ;
+     border-radius: 2.5px;
+     font-size: 15px;
+     line-height: 150%;
+     text-align: left;
+ 
+}
+Button{
+      position: absolute;
+        width: 125px;
+        height: 40px;
+        left: 110px;
+        top: 415px;
+        color: rgba(80, 80, 80, 1);
+        background-color: rgba(255, 255, 255, 1);
+        border:1px solid rgba(128, 128, 128, 1) ;
+        border-radius: 2.5px;
+        font-size: 12.5px;
+        line-height: 150%;
+        text-align: center;
+    
+}
+.anticon-left{
+    position: absolute;
+    
+	left: 10px;
+	top: 15px;
+    font-size: 20px;
+    font-weight: 350;
+	color: rgba(153, 153, 153, 1);
+}
+
+}

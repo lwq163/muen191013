@@ -1,0 +1,86 @@
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background:#fff;
+}
+
+.section{
+    flex: 1;
+    overflow-y: auto;
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+    .section_tops{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 13px;
+        flex-shrink: 0;
+        >dt{
+           width:100%;
+           >img{
+               width: 100%;
+               height: 100%;
+           }
+        }
+        >dd{
+            flex: 1;
+            >dl{
+                width: 100%;
+                height: 65px;
+                display: flex;
+                align-items: center;
+                >dt{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 500%;
+                    overflow: hidden; 
+                    >img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                >dd{
+                    flex: 1;
+                    margin-left: 13px;
+                    >h3{
+                        margin-top: 25px;
+                        color: rgba(80, 80, 80, 1);
+	                    font-size: 14px;
+                    }
+                    >p{
+                        color: rgba(153, 153, 153, 1);
+	                    font-size: 8px;
+                    }
+                }
+            }
+            >h4{
+                color: rgba(80, 80, 80, 1);
+                font-size: 14px; 
+            }
+        }
+    }
+    .section_top_bottom{
+        display: flex;
+        margin:10px auto 0;
+        width: 280px;
+        height: 30px;
+        left: 42px;
+        top: 304px;
+        border:1px solid rgba(255, 87, 51, 1);
+        border-radius: 3px;
+        li{
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            line-height: 30px;
+            
+        }
+        .active{
+            background: rgba(255, 87, 51, 1);
+            color:#fff;
+        }
+        
+    }
+}

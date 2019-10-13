@@ -1,0 +1,171 @@
+// @import "../../scss/_minix.scss";
+// @import "../../scss/common.scss";
+
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+.box_top{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    // @include sizing;
+    flex-shrink: 0;
+    .box_topicon{
+        width: 38px;
+        height: 38px;
+        font-size: 25px;
+        color: rgba(56, 56, 56, 1);
+    }
+    h3{
+        width: 72px;
+        height: 27px;
+        color: rgba(80, 80, 80, 1);
+        font-size: 18px;
+    }
+    span{
+        width: 38px;
+        height: 38px;
+    }
+    
+}
+.box_section{
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    .box_section_top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 12px;
+        // @include sizing;
+        flex-shrink: 0;
+        .box_section_topxj{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 10px;
+            // @include sizing;
+            flex-shrink: 0;
+            h3{
+                color: rgba(0, 0, 0, 1);
+                font-size: 24px;
+            }
+            span{
+                display: inline-block;
+                color: rgba(28, 30, 122, 1);
+                font-size: 16px;
+            }
+        }
+        dl{
+            width: 100%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            border-bottom:1px solid #ccc;
+            dt{
+                width: 42px;
+                height: 42px;
+                overflow: hidden;
+                border-radius: 50%;
+                margin:0 10px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            dd{
+                flex: 1;
+                h3{
+                    color: rgba(0, 0, 0, 1);
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                span{
+                    width: 225px;
+                    height: 24px;
+                    left: 88px;
+                    top: 158px;
+                    color: rgba(80, 80, 80, 1);
+                    font-size: 16px;
+                    line-height: 150%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .box_section_list{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 0 12px;
+        flex-shrink: 0;
+        .box_section_listtop{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            flex-shrink: 0;
+            span{
+                color: rgba(0, 0, 0, 1);
+                font-size: 16px;
+            }
+            span:nth-child(2){
+                color: rgba(28, 30, 122, 1);
+            }
+        }
+        >ul{
+            margin-top:13px;
+            width: 100%;
+            li{
+                width: 100%;
+                height: 73px;
+                color: rgba(80, 80, 80, 1);
+                background-color: rgba(255, 255, 255, 1);
+                border-radius: 4px;
+                font-size: 14px;
+                box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5);
+                margin-top:10px;
+                dl{
+                    width: 100%;
+                    height: 73px;
+                    display: flex;
+                    align-items: center;
+                    dt{
+                        width: 41px;
+                        height: 41px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        margin: 0 10px 0 20px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    dd{
+                        flex: 1;
+                        h3{
+                            color: rgba(0, 0, 0, 1);
+                            font-size: 14px;
+                            font-weight: bold;
+                            margin-top:13px;
+                        }
+                        p{
+                            color: rgba(80, 80, 80, 1);
+	                        font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.dcqMainDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3eaf1;
+}
+.dcqMainDiv main{
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.dcqMainDiv main .mineMessage {
+    display: flex;
+    padding: 20px;
+}
+.dcqMainDiv main .mineMessage .mineHeadImg{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.mineHeadImg img{
+    width: 100%;
+}
+.mineMessage .nameIntrodruce{
+    width: 70%;
+    padding: 0 20px;
+}
+.mineMessage .nameIntrodruce .mineName{
+    font-size: 20px;
+}
+.mineEdit{
+    color: #7886a1;
+    margin-top: 10px;
+}
+.mineEdit i{
+    font-size: 25px;
+}
+.mineList{
+    background-color: #fff;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 50px;
+    box-shadow: 0 -2px 10px #cad4e0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.mineList ul{
+    padding:0 30px;
+}
+.mineIntrodruce{
+    margin-top: 5px;
+}
+.mineIntrodruce input{
+    height: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 3px #cad4e0;
+}
+.mineList ul li{
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e8e8e8;
+}
+.mineList ul li i{
+    font-size: 12px;
+    line-height: 42px;
+    color: #7886a1;
+}
+.dcqMainDiv p{
+    margin: 0;
+}

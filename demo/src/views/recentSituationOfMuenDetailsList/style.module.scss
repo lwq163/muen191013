@@ -1,0 +1,49 @@
+// @import "../../scss/_minix.scss";
+// @import "../../scss/common.scss";
+
+.box{
+   
+}
+.box_list{
+    width: 100%;
+	height: 52px;
+	margin-top:23px;
+	background-color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	line-height: 150%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    dt{
+        width: 34px;
+        height: 33px;
+        left: 17px;
+        top: 365px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin:0 10px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    dd{
+        h3{
+        color: rgba(80, 80, 80, 1);
+        font-size: 14px;
+        line-height: 150%;
+        text-align: left;
+        margin-top: 15px;
+        }
+        p{
+            width: 100%;
+            height: 18px;
+            left: 58px;
+            top: 386px;
+            color: rgba(80, 80, 80, 1);
+            font-size: 12px;
+            line-height: 150%;
+            text-align: left;
+        }
+    }
+}

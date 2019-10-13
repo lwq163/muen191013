@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f0f0f0;
+}
+
+#root section {
+  flex: 1;
+  overflow-y: auto;
+}
+
+#root section .lwqbanner {
+  width: 100%;
+  height: 160px;
+}
+
+#root section .lwqbanner .lwqswipercontainer {
+  width: 100%;
+  height: 160px;
+}
+
+#root section .lwqbanner .lwqswipercontainer .lwqswiperwrapper {
+  width: 100%;
+  height: 160px;
+}
+
+#root section .lwqbanner .lwqswipercontainer .lwqswiperwrapper .lwqswiperslide {
+  width: 100%;
+  height: 160px;
+}
+
+#root section .lwqbanner .lwqswipercontainer .lwqswiperwrapper .lwqswiperslide img {
+  width: 100%;
+  height: 100%;
+}
+
+#root section .lwqSmallGiftslist {
+  width: 100%;
+  height: 100%;
+  margin-top: 16px;
+}
+
+#root section .lwqSmallGiftslist dl {
+  width: 100%;
+  height: 120px;
+  color: #505050;
+  background-color: white;
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#root section .lwqSmallGiftslist dl dt {
+  width: 100px;
+  height: 80px;
+}
+
+#root section .lwqSmallGiftslist dl dt img {
+  width: 100%;
+  height: 100%;
+}
+
+#root section .lwqSmallGiftslist dl dd {
+  margin-left: 14px;
+}
+
+#root section .lwqSmallGiftslist dl dd .lwqname {
+  width: 100%;
+  height: 10%;
+  color: black;
+  font-size: 18px;
+  line-height: 90%;
+  text-align: left;
+}
+
+#root section .lwqSmallGiftslist dl dd .lwqdescribe {
+  width: 100%;
+  height: 11%;
+  color: #505050;
+  font-size: 14px;
+  line-height: 60%;
+  text-align: left;
+}
+
+#root section .lwqSmallGiftslist dl dd p:nth-of-type(3) .lwqprice {
+  width: 30%;
+  height: 27px;
+  color: #d43030;
+  font-size: 17px;
+  line-height: 60%;
+  text-align: center;
+  display: inline-block;
+}
+
+#root section .lwqSmallGiftslist dl dd p:nth-of-type(3) .lwqperson {
+  width: 50%;
+  height: 18px;
+  color: #505050;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: right;
+  display: inline-block;
+}

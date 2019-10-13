@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(240, 240, 240);
+    section {
+        flex: 1;
+        overflow-y: auto;
+        .lwqSmallGiftslist {
+            width: 100%;
+            height: 100%;
+            dl {
+                width: 100%;
+                height: 99px;
+                color: rgba(80, 80, 80, 1);
+                background-color: rgba(255, 255, 255, 1);
+                text-align: center;
+                box-sizing: border-box;
+                padding: 12px 20px;
+                display: flex;
+                align-items: center;
+                dt {
+                    width: 88px;
+                    height: 66px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                dd {
+                    width: 100%;
+                    height: 99px;
+                    margin-left: 10px;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    .lwqname {
+                        width: 100%;
+                        height: 30%;
+                        color: rgba(0, 0, 0, 1);
+                        font-size: 16px;
+                        margin-top: 20px;
+                    }
+                    .lwqprice {
+                        width: 100%;
+                        height: 30%;
+                        color: rgba(212, 48, 48, 1);
+                        font-size: 17px;
+                        line-height: 150%;
+                        display: flex;
+                        justify-content: space-between;
+                        div {
+                            width: 20%;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            button {
+                                border-radius: 50%;
+                                background: #acf;
+                                width: 20px;
+                                height: 24px;
+                                text-align: center;
+                                border: 0;
+                                line-height: 30%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        height: 45px;
+        color: rgba(80, 80, 80, 1);
+        background-color: rgba(255, 255, 255, 1);
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        .num {
+            width: 50px;
+            height: 45px;
+            color: rgba(80, 80, 80, 1);
+            font-size: 14px;
+            line-height: 45px;
+            text-align: left;
+        }
+        .totalprice {
+            width: 63px;
+            height: 45px;
+            color: rgba(0, 0, 0, 1);
+            font-size: 18px;
+            line-height: 45px;
+            text-align: right;
+        }
+        .price {
+            width: 66px;
+            height: 45px;
+            color: rgba(255, 87, 51, 1);
+            font-size: 16px;
+            line-height: 45px;
+            text-align: left;
+        }
+    }
+}

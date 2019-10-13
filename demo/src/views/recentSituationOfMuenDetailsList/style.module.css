@@ -1,0 +1,54 @@
+.box {
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+}
+
+.box_list {
+  width: 100%;
+  height: 52px;
+  margin-top: 23px;
+  background-color: white;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.box_list dt {
+  width: 34px;
+  height: 33px;
+  left: 17px;
+  top: 365px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.box_list dt img {
+  width: 100%;
+  height: 100%;
+}
+
+.box_list dd h3 {
+  width: 88px;
+  height: 21px;
+  left: 58px;
+  top: 365px;
+  color: #505050;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: left;
+}
+
+.box_list dd p {
+  width: 100%;
+  height: 18px;
+  left: 58px;
+  top: 386px;
+  color: #505050;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: left;
+}

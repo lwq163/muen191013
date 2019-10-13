@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "微软雅黑"
+}
+html,body,#root,.dcqHomeDiv{
+    width: 100%;
+    height: 100%;
+    background-color: #e3eaf1;
+}
+
+.dcqHomeDiv{
+    display: flex;
+    flex-direction: column;
+}
+.dcqHomeDiv p,.dcqHomeDiv dl,.dcqHomeDiv dd,.dcqHomeDiv h3{
+    margin: 0;
+}
+/* 头部 */
+.dcqHomeDiv header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    background-color: #fff;
+    color: #333;
+    border-bottom: 1px solid #cad4e0;
+}
+.dcqHomeDiv header .absoluteIcon{
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+}
+.dcqHomeDiv header a{
+    color: #7886a1;
+}
+/* 主体 */
+.dcqHomeDiv main{
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* banner大图 */
+.dcqHomeDiv main .bannerSwiper{
+    height: 160px;
+    overflow: hidden;
+}
+.dcqHomeDiv main .bannerSwiper img{
+    width: 100%;
+}
+/* 路由跳转List */
+.dcqHomeDiv main .homeList{
+    box-shadow: 0px 2px 8px #cad4e0;
+}
+.dcqHomeDiv main .homeList ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    background-color: #fff;
+}
+.dcqHomeDiv main .homeList ul li{
+    width: 25%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0;
+}
+.dcqHomeDiv main .homeList ul li i{
+    font-size: 20px;
+    color: #7886a1;
+    padding: 5px 0;
+}
+.dcqHomeDiv main .homeList ul li a{
+    text-decoration: none;
+    color: #9eadc4;
+    font-size: 12px;
+}
+/* 沐恩近况列表 组内情况列表 */
+.dcqHomeDiv main .moonRecent .moonRecentTitle,.groupSituationTitle{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    border-bottom: 1px solid #cad4e0;
+}
+.dcqHomeDiv main p{ 
+    margin: 0;
+}
+.moonRecentTitle span .iconfont,.groupSituationTitle span .iconfont{
+    font-size: 8px;
+    padding-left: 10px;
+}
+.moonRecentTitle span,.groupSituationTitle span{
+    padding-top: 1px;
+    font-size: 12px;
+    color: #7886a1;
+}
+.moonRecentTitle i,.groupSituationTitle i{
+    color: #7886a1;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.moonRecentList,.groupSituationList{
+    background-color: #fff;
+}
+.moonRecentList li,.groupSituationList li{
+    padding: 10px 15px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px #e3eaf1;
+}
+.moonRecentList li .section_dltop,.groupSituationList li .section_dltop{
+    display: flex;
+}
+.moonRecentList li .section_dltop dt,.groupSituationList li .section_dltop dt{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 5px #e3eaf1;
+    overflow: hidden;
+}
+.moonRecentList li .section_dltop dt img,.groupSituationList li .section_dltop dt img{
+    width: 100%;
+}
+.moonRecentList li>h4,.groupSituationList li>h4{
+    padding: 20px 5px;
+}
+.moonRecentList li .section_dltop dd,.groupSituationList li .section_dltop dd{
+    padding-left: 10px;
+}
+.moonRecentList li .section_dltop dd p,.groupSituationList li ::-ms-tooltip dd p{
+    font-size: 10px;
+}
+.moonRecentList li .section_dlbottom dt img,.groupSituationList li .section_dlbottom dt img{
+    width: 100%;
+}
+.moonRecentList li .section_dlbottom dd,.groupSituationList li .section_dlbottom dd{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-around;
+}
+.moonRecentList li .section_dlbottom dd p .section_dlbottom_Icon_Left,.groupSituationList li .section_dlbottom dd p{
+    padding: 0 10px;
+}
+.section_recommond ul li{
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+}
+.section_recommond ul>li{
+    display: flex;
+    flex-direction: column;
+}
+.section_recommond ul .outSide{
+    display: flex;
+    padding:10px;
+}
+.outSide img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.section_recommond ul .inSide{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.section_recommond ul .inSide>li{
+    display: flex;
+    flex-direction: row;
+    justify-content: unset;
+}
+.inSide>li img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.groupSituationList{
+    background-color: #fff;
+}
+.groupSituationList>li{
+    display: flex;
+    padding: 10px 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.groupSituationList>li .headPortrait{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.groupSituationList>li .headPortrait img{
+    width: 100%;
+}
+.groupSituationList>li .rightMessage .groupName{
+    font-size: 17px;
+    padding: 10px 0;
+}
+.groupSituationList>li .rightMessage .groupReport{
+    font-size: 13px;
+    padding: 10px 0;
+    color: #7886a1;
+}
+
+/* bannerSwiper */
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+
+
+/* 所有icon图标的字体阴影 */
+.iconfont{
+    text-shadow: 1px 1px 2px #cad4e0;
+}

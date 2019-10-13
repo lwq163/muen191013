@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html,body,#root{
+    width: 100%;
+    height: 100%;
+}
+header.dcqHeader{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    background-color: #fff;
+    color: #333;
+    border-bottom: 1px solid #cad4e0;
+}
+header.dcqHeader .routeGoBack{
+    position: absolute;
+    left: 20px;
+}

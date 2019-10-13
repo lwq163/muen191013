@@ -1,0 +1,218 @@
+// @import "../../scss/_minix.scss";
+// @import "../../scss/common.scss";
+
+
+.section{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    p{
+        margin: 0;
+    }
+    h3{
+        margin: 0;
+    }
+    .section_list{
+        width: 100%;
+        height: auto;
+        top: 79px;
+        color: rgba(80, 80, 80, 1);
+        background-color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        line-height: 150%;
+        padding: 0 12px;
+        font-size: 16px;
+        // @include sizing;
+        .section_dltop{
+            width: 100%;
+            height: 59px;
+            display: flex;
+            align-items: center;
+            dt{
+                width: 35px;
+                height: 35px;
+                margin-right:12px;
+                overflow: hidden;
+                border-radius: 23px;
+                img{
+                    width: 100%;
+                }
+            }
+            dd{
+                h3{
+                    width: 293px;
+                    height: 21px;
+                    left: 59px;
+                    top: 91px;
+                    color: rgba(80, 80, 80, 1);
+                    font-size: 14px;
+                    line-height: 150%;
+                    text-align: left;
+                }
+                p{
+                    width: 293px;
+                    height: 14px;
+                    left: 59px;
+                    top: 112px;
+                    color: rgba(153, 153, 153, 1);
+                    font-size: 12px;
+                    line-height: 150%;
+                    text-align: left;
+                }
+            }
+        }
+        >h4{
+            width: 352px;
+            height: 21px;
+            margin-top: 12px;
+            margin-bottom: 11px;
+            top: 138px;
+            color: rgba(80, 80, 80, 1);
+            font-size: 14px;
+            line-height: 150%;
+            text-align: left;
+        }
+        .section_dlbottom{
+            width: 100%;
+            >dt{
+                width: 100%;
+                display: flex;
+                p{
+                    flex: 1;
+                    padding: 5px;
+                    flex-shrink: 1;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                
+            }
+            >dd{
+                width: 100%;
+                
+                ul{
+                    width: 100%;
+                    display: flex;
+                    >li{
+                        flex: 1;
+                         display: flex;
+                         align-items: center;
+                         justify-content: center;
+                         background: #fff;
+                         margin-top:10px;
+                         .section_dlbottom_Icon_Left{
+                             width: 19px;
+                             height: 19px;
+                             left: 49px;
+                             top: 601px;
+                             font-size: 19px;
+                             color: rgba(153, 153, 153, 1);
+                         }
+                         span{
+                             display: block;
+                             width: 61px;
+                             height: 23px;
+                             left: 68px;
+                             top: 272px;
+                             text-indent: 12px;
+                             color: rgba(153, 153, 153, 1);
+                             font-size: 12px;
+                             line-height: 23px;
+                             text-align: left;
+                             
+                         }
+                     }
+                }
+                >ol{
+                    width: 100%;
+                    padding-top: 10px;
+                    padding-right: 10px;
+                    border-top:1px solid rgba(153, 153, 153, 0.22857142857142862);
+                    >li{
+                        width: 100%;
+                        >.section_dlbottom_list{
+                            width: 100%;
+                            display: flex;
+                            >dt{
+                                width: 35px;
+                                height: 35px;
+                                overflow: hidden;
+                                border-radius:50%;
+                                margin-right:12px;
+                                margin-left:10px;
+                                p{
+                                    width: 100%;
+                                    height: 100%;
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            >dd{
+                                flex: 1;
+                                >div{
+                                    width: 100%;
+                                    >h3{
+                                        color: rgba(42, 130, 228, 1);
+	                                    font-size: 12px;
+                                    }
+                                    >p{
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        >span{
+                                            color: rgba(80, 80, 80, 1);
+                                            font-size: 10px;
+                                        }
+                                    }
+                                }
+                                >.section_dlbottom_listli{
+                                    margin-top:10px;
+                                    width: 100%;
+                                    display: flex;
+                                    >dt{
+                                        width: 35px;
+                                        height: 35px;
+                                        overflow: hidden;
+                                        border-radius:50%;
+                                        margin-right:12px;
+                                        p{
+                                            width: 100%;
+                                            height: 100%;
+                                            img{
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                    >dd{
+                                        flex: 1;
+                                        >div{
+                                            width: 100%;
+                                            >div{
+                                                justify-content: space-between;
+                                                display: flex;
+                                                >h3{
+                                                    color: rgba(42, 130, 228, 1);
+                                                    font-size: 12px;
+                                                }
+                                                span{
+                                                    color: rgba(80, 80, 80, 1);
+                                                    font-size: 10px;
+                                                }
+                                            }
+                                            >p{
+                                                width: 100%;
+                                                font-size: 8px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

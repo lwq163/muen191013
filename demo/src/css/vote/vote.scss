@@ -1,0 +1,69 @@
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(240, 240, 240);
+    .Initiateavote {
+        position: absolute;
+        top: 2%;
+        right: 6%;
+        font-size: 15px;
+        color: #acf;
+    }
+    section {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        box-sizing: border-box;
+        background: #fff;
+        .ant-tabs {
+            width: 100%;
+            height: 100%;
+            .ant-tabs-bar {
+                width: 100%;
+                height: 43px;
+                display: flex;
+                justify-content: space-around;
+            }
+            .ant-tabs-content {
+                overflow-y: auto;
+                .lwqdl {
+                    display: flex;
+                    align-items: center;
+                    padding: 0 15px;
+                    border: 2px solid rgb(194, 197, 197);
+                    box-shadow: darkgrey 5px 5px 10px 5px;
+                    .lwqdt {
+                        width: 45px;
+                        height: 40px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 50%;
+                        }
+                    }
+                    .lwqdd {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0 13px;
+                        .lwqvotetabinfo1 {
+                            height: 30px;
+                            line-height: 30px;
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 8px;
+                        }
+                        .lwqvotetabinfo2 {
+                            height: 30px;
+                            line-height: 30px;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,131 @@
+html,body,#root{
+    width:100%;
+    height:100%;
+}
+
+.box{
+     width:100%;
+     height:100%;
+     font-family: "微软雅黑";
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    .boody{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        .txt{
+            background-color: rgba(255, 255, 255, 1);
+            width:92%;
+            margin: 10px 15px;
+            padding-bottom: 15px;
+             position: relative;
+             border-bottom: 1px solid rgba(153, 153, 153, 1);
+            
+}
+             b{
+                position: absolute;
+                bottom: 10px;
+                right: 25px;
+                color: rgba(80, 80, 80, 1);
+                font-size: 12px;
+             }
+             p #change{
+                   position: absolute;
+                   right:10px;
+                   top:10px;
+                   color: rgba(28, 30, 122, 1);
+                
+             } 
+           .txt>p:nth-child(1){
+   
+               img{
+                   width: 50px;
+                   height: 50px;
+                   border-radius: 25px;
+                   margin-top:10px;
+                   margin-left:10px;
+               }
+              span{
+                  margin-left:13px;
+                  color: rgba(80, 80, 80, 1);
+                  font-size: 14px;
+               }
+            }
+          .txt>  p:nth-child(2){
+                margin-top: -35px;
+               margin-left:77.5px; 
+               margin-right:25px;
+               color: rgba(80, 80, 80, 1);
+               font-size: 16px;
+               
+            }
+            .divs{
+                flex:1;
+                display: flex;
+                flex-direction: column;
+                p{
+                  height:40px;
+                  line-height: 40px;
+                  display: flex;
+                  span{
+                      flex:1;
+                      text-align: center;
+                      font-size: 18px;
+                  }
+                 .active{
+                            color:red;
+                 }
+
+                }
+                .text{
+                    flex:1;
+                   p{
+                      width:100%;  
+                      height:100px;
+                      position: relative;
+                      .imgs{
+                          width:50px;
+                          height:50px;
+                          position: absolute;
+                          top:15px;
+                          left:25px;
+                          border-radius: 25px;
+                          background: black;
+                          img{
+                             width: 100%;
+                             height:100%; 
+                             border-radius: 25px;
+                          }
+                      }
+                      .txts{
+                          position: absolute;
+                          top:30px;
+                          left:100px;
+                            color: rgba(80, 80, 80, 1);
+                            font-size: 10px;
+                      }
+                      .user{
+                        position: absolute;
+                        top:5px;
+                        left:100px;
+                        color: rgba(42, 130, 228, 1);
+                        font-size: 12px;
+                      }
+                   } 
+
+                }
+           
+            }
+        }
+        
+        
+
+
+    }
+
+
+
+
+  
+
